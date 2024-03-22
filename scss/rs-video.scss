@@ -65,6 +65,10 @@
 		}
 
 		&.is-hide {
+			.rs-video__btn {
+				opacity: 0;
+				visibility: hidden;
+			}
 		}
 	}
 
@@ -90,6 +94,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		transition: all 0.3s ease 0s;
 	}
 
 	.rs-video__btn .bgvideo__control {
